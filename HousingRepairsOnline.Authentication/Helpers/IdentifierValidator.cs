@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using Ardalis.GuardClauses;
 
 namespace HousingRepairsOnline.Authentication.Helpers

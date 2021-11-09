@@ -1,10 +1,10 @@
 using System;
-using Microsoft.Extensions.DependencyInjection;
-using System.Security.Claims;
-using JWT.Algorithms;
 using System.Linq;
+using System.Security.Claims;
 using HousingRepairsOnline.Authentication.Helpers;
 using JWT;
+using JWT.Algorithms;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HousingRepairsOnline.Authentication.DependencyInjection
 {

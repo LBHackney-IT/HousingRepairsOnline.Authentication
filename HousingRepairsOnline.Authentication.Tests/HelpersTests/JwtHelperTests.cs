@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FluentAssertions;
 using HousingRepairsOnline.Authentication.Helpers;
 using JWT.Algorithms;

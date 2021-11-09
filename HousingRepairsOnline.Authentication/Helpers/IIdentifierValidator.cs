@@ -1,4 +1,4 @@
-﻿namespace HousingRepairsOnline.Authentication.Helpers
+namespace HousingRepairsOnline.Authentication.Helpers
 {
     /// <summary>Abstraction of an identifier validator.</summary>
     public interface IIdentifierValidator

@@ -1,7 +1,7 @@
 using System.Net;
 using System.Threading.Tasks;
-using HousingRepairsOnline.Authentication.Controllers;
 using FluentAssertions;
+using HousingRepairsOnline.Authentication.Controllers;
 using HousingRepairsOnline.Authentication.Helpers;
 using Moq;
 using Xunit;
