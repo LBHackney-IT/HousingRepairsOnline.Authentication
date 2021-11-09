@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>HousingRepairsOnline.Authentication</PackageId>
+    <Authors>Made Tech</Authors>
+    <Company>City Of Lincoln Council</Company>
+    <RepositoryUrl>https://github.com/City-of-Lincoln-Council/HousingRepairsOnline.Authentication</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
