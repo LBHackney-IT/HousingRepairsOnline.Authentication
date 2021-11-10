@@ -1,7 +1,9 @@
 # Housing Repairs Online Authentication
 Simplifies setup of JSON Web Tokens (JWT) authentication by:
 
-- providing an extension method for setup
+- providing extension methods for 
+  - setup (on `IServiceCollection`), see `ServiceCollectionExtensions`
+  - token retrieval (on `HttpClient`), see `AuthenticationTokenHelper`
 - an authentication controller that will provide an authentication endpoint
 - abstracts JWT creation
 
