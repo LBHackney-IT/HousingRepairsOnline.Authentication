@@ -24,6 +24,15 @@ Simplifies setup of JSON Web Tokens (JWT) authentication by:
        endpoints.MapControllers().RequireAuthorization();
    });
    ```
+3. Optionally, if using Swagger, in `ConfigureServices` within `services.AddSwaggerGen` add `c.AddJwtSecurityScheme();`
+   ```
+   services.AddSwaggerGen(c =>
+   {
+       c.SwaggerDoc("v1", new OpenApiInfo { Title = "HousingRepairsOnlineApi", Version = "v1" });
+       c.AddJwtSecurityScheme();
+   });
+   ```
+   This will allow setting a JWT authentication token via the Swagger web UI.
 
 After following the steps above, the following describes how to authenticate and make requests.
 It's advisable to copy the below to the documentation of consuming projects.
