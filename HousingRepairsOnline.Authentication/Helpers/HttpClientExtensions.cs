@@ -7,14 +7,14 @@ namespace HousingRepairsOnline.Authentication.Helpers
     public static class HttpClientExtensions
     {
         /// <summary>Retrieves an API token.</summary>
-        /// <param name="httpClient">A http client to use for making the token request.</param>
-        /// <param name="apiUrl">The API url to request authentication for.</param>
+        /// <param name="httpClient">A http client with a <see cref="HttpClient.BaseAddress"/> to use for making the token request.</param>
         /// <param name="identifier">The identifier to use for validation.</param>
         /// <returns>An API token.</returns>
-        public static async Task<string> RetrieveAuthenticationToken(this HttpClient httpClient, string apiUrl, string identifier)
+        /// <exception cref="System.InvalidOperationException">Exception will be raised if <paramref name="httpClient" /> does not have it's <see cref="HttpClient.BaseAddress"/> set.</exception>
+        public static async Task<string> RetrieveAuthenticationToken(this HttpClient httpClient, string identifier)
         {
             var request = new HttpRequestMessage(HttpMethod.Post,
-                $"{apiUrl}/authentication?identifier={identifier}");
+                $"/authentication?identifier={identifier}");
             var response = await httpClient.SendAsync(request);
 
             var result = await response.Content.ReadAsStringAsync();
