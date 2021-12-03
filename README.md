@@ -34,6 +34,9 @@ Simplifies setup of JSON Web Tokens (JWT) authentication by:
    ```
    This will allow setting a JWT authentication token via the Swagger web UI.
 
+#### Notes
+- All `HttpClient`'s should have their [BaseAddress](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient.baseaddress) property set. 
+
 After following the steps above, the following describes how to authenticate and make requests.
 It's advisable to copy the below to the documentation of consuming projects.
 
