@@ -44,4 +44,4 @@ jobs:
           PACKAGE_PATH: ${{env.ARTIFACTS_DIRECTORY}}/HousingRepairsOnline.Authentication.${{env.RELEASE_VERSION}}.nupkg
         run: |
           echo $PWD
-          dotnet nuget push $PACKAGE_PATH --api-key ${{secrets.GITHUB_TOKEN}} --source https://nuget.pkg.github.com/City-of-Lincoln-Council/index.json
+          dotnet nuget push $PACKAGE_PATH --api-key ${{secrets.TOKEN}} --source https://nuget.pkg.github.com/LBHackney-IT/index.json
