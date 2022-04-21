@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingRepairsOnline.Authentication", "HousingRepairsOnline.Authentication\HousingRepairsOnline.Authentication.csproj", "{EAB80A6B-98BD-4096-9BD5-AD9684570F32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingRepairsOnline.Authentication.Hackney", "HousingRepairsOnline.Authentication.Hackney\HousingRepairsOnline.Authentication.Hackney.csproj", "{EAB80A6B-98BD-4096-9BD5-AD9684570F32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingRepairsOnline.Authentication.Tests", "HousingRepairsOnline.Authentication.Tests\HousingRepairsOnline.Authentication.Tests.csproj", "{2D4A4BD0-8AAA-4DD2-B110-1D43D82A264F}"
 EndProject

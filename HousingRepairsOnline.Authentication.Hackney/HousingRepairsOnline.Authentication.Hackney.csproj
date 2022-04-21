@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <PackageId>HousingRepairsOnline.Authentication</PackageId>
+    <PackageId>HousingRepairsOnline.Authentication.Hackney</PackageId>
     <Authors>London Borough of Hackney Council</Authors>
     <Company>London Borough of Hackney Council</Company>
     <RepositoryUrl>https://github.com/LBHackney-IT/HousingRepairsOnline.Authentication</RepositoryUrl>
+    <RootNamespace>HousingRepairsOnline.Authentication</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

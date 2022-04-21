@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HousingRepairsOnline.Authentication\HousingRepairsOnline.Authentication.csproj" />
+    <ProjectReference Include="..\HousingRepairsOnline.Authentication.Hackney\HousingRepairsOnline.Authentication.Hackney.csproj" />
   </ItemGroup>
 
 </Project>

@@ -41,7 +41,7 @@ jobs:
           dotnet pack --configuration Release /p:Version=${{env.RELEASE_VERSION}} -o ${{env.ARTIFACTS_DIRECTORY}}
       - name: Publish project
         env:
-          PACKAGE_PATH: ${{env.ARTIFACTS_DIRECTORY}}/HousingRepairsOnline.Authentication.${{env.RELEASE_VERSION}}.nupkg
+          PACKAGE_PATH: ${{env.ARTIFACTS_DIRECTORY}}/HousingRepairsOnline.Authentication.Hackney.${{env.RELEASE_VERSION}}.nupkg
         run: |
           echo $PWD
           dotnet nuget push $PACKAGE_PATH --api-key ${{secrets.TOKEN}} --source https://nuget.pkg.github.com/LBHackney-IT/index.json
