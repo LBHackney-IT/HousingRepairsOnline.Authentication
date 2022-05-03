@@ -14,7 +14,7 @@ namespace HousingRepairsOnline.Authentication.Helpers
         public static async Task<string> RetrieveAuthenticationToken(this HttpClient httpClient, string identifier)
         {
             var request = new HttpRequestMessage(HttpMethod.Post,
-                $"/authentication?identifier={identifier}");
+                $"authentication?identifier={identifier}");
             var response = await httpClient.SendAsync(request);
 
             var result = await response.Content.ReadAsStringAsync();
