@@ -9,7 +9,8 @@ namespace HousingRepairsOnline.Authentication.Controllers
     /// <summary>A controller for authentication.</summary>
     /// <remarks></remarks>
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/repairsonline/[controller]")]
+    [ApiVersion("1.0")]
     [AllowAnonymous]
     public class AuthenticationController : ControllerBase
     {
