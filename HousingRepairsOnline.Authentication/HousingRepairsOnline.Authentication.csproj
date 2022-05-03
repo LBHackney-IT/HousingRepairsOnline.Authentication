@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <PackageId>HousingRepairsOnline.Authentication</PackageId>
+    <PackageId>Hackney.HousingRepairsOnline.Authentication</PackageId>
     <Authors>London Borough of Hackney Council</Authors>
     <Company>London Borough of Hackney Council</Company>
     <RepositoryUrl>https://github.com/LBHackney-IT/HousingRepairsOnline.Authentication</RepositoryUrl>
